@@ -22,7 +22,7 @@ export const categories = [
     {
         id: 5,
         name: 'Noodles',
-        image: require('../assets/images/pizzaIcon.png'),
+        image: require('../assets/image/pizzaIcon.png'),
     },
     {
         id: 6,
