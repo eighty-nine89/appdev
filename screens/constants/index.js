@@ -1,4 +1,4 @@
-export const categories = [
+export const  categories =[
     {
         id: 1,
         name: 'Pizza',
@@ -22,19 +22,17 @@ export const categories = [
     {
         id: 5,
         name: 'Noodles',
-        image: require('../assets/image/pizzaIcon.png'),
+        image: require('../assets/images/pizzaIcon.png'),
     },
     {
         id: 6,
         name: 'Sweets',
         image: require('../assets/images/pizzaIcon.png'),
     },
-
 ]
 
-
-export const featured = {
-    id: 1,
+export const featured =  {
+    id: 1, 
     title: 'Hot and Spicy',
     description: 'soft and tender fried chicken',
     restaurants: [
@@ -51,28 +49,28 @@ export const featured = {
             category: 'Fast Food',
             dishes: [
                 {
-                   id: 1,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 2,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 3,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
             ]
-    
+
         },
         {
             id: 2,
@@ -87,28 +85,27 @@ export const featured = {
             category: 'Fast Food',
             dishes: [
                 {
-                   id: 1,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 2,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 2,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 3,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 3,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
             ]
-    
         },
         {
             id: 3,
@@ -123,28 +120,27 @@ export const featured = {
             category: 'Fast Food',
             dishes: [
                 {
-                   id: 1,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 2,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
                 {
-                   id: 3,
-                   name: 'pizza',
-                   description: 'cheezy garlic pizza',
-                   price: 10,
-                   image:  require('../assets/images/pizzaDish.png')
+                    id: 1,
+                    name: 'pizza',
+                    description: 'cheezy garlic pizza',
+                    price: 10,
+                    image: require('../assets/images/pizzaDish.png')
                 },
             ]
-    
         }
     ]
 }
