@@ -31,7 +31,7 @@ export default function FeaturedRow({title, description, restaurants}) {
                     <RestaurantCard
                     item={restaurant}
                     key={index}
-                    />
+                  />
                 )
             })
         }

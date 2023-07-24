@@ -6,6 +6,7 @@ import * as Icon from "react-native-feather";
 import { themeColors } from '../theme';
 import Categories from '../components/categories';
 import FeaturedRow from '../components/featuredRow';
+import { featured } from '../constants';
 export default function HomeScreen() {
   return (
     <SafeAreaView className="bg-white">
