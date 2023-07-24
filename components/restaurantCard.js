@@ -12,7 +12,7 @@ export default function RestaurantCard({item}) {
           shadowRadius: 7
         }}
       className="mr-6 bg-white rounded-3xl shadow-lg">
-        <Image className="h-36 w-6 rounded-t-3xl" source={item.image} />
+        <Image className="h-36 w-64 rounded-t-3xl" source={item.image} />
         <View className="px-3 pb-4 space-y-2">
           <Text className="text-lg font-bold pt-2">{item.name}</Text>
           <View className="flex-row items-center space-x-1">
