@@ -3,7 +3,7 @@ import React from 'react'
 import * as Icon from "react-native-feather";
 import { themeColors } from '../theme';
 
-export default function RestaurantCard() {
+export default function RestaurantCard({item}) {
   return (
     <TouchableWithoutFeedback>
       <View 
