@@ -9,6 +9,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useDispatch } from 'react-redux';
 import { setRestaurant } from '../slices/restaurantSlice';
 
+
 export default function RestaurantScreen() {
     const {params} = useRoute();
     const navigation = useNavigation();
@@ -17,7 +18,7 @@ export default function RestaurantScreen() {
     //console.log('restaurant: ',item);
     useEffect(()=>{
       if(item && item.id){
-        dispatch(setRestaurant({...item}))
+         dispatch(setRestaurant({...item}))
       }
     },[])
   return (

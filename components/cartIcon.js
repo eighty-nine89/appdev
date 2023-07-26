@@ -3,11 +3,12 @@ import React from 'react'
 import { themeColors } from '../theme'
 import { useNavigation } from '@react-navigation/native'
 import { useSelector } from 'react-redux';
-import { selectCartItems } from '../slices/cartSlice';
+import { selectCartItems, selectCartTotal } from '../slices/cartSlice';
 
 export default function CartIcon() {
     const navigation = useNavigation();
     const cartItems = useSelector(selectCartItems);
+    const cartTotal = useSelector(selectCartTotal);
     if(!cartItems.length) return;
   return (
     <View className="absolute bottom-5 w-full z-50">
@@ -24,7 +25,7 @@ export default function CartIcon() {
             View Cart
         </Text>
         <Text className="font-extrabold  text-white text-lg">
-            GH¢{23}
+            GH¢{cartTotal}
         </Text>
       </TouchableOpacity>
     </View>
