@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Navigation from './navigation';
 import { Provider } from 'react-redux'
 import { store } from './store';
+import 'react-native-url-polyfill/auto';
 
 export default function App() {
   return (
