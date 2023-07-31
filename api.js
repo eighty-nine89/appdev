@@ -5,13 +5,13 @@ export const getFeaturedRestaurants = ()=>{
     return sanityQuery(`
         *[_type=='featured']{
             ...,
-            resturants[]->{
+            restaurants[]->{
             ...,
             dishes[]->{
                 ...
             },
-            type->{
-                name
+            type[]->{
+            name
             }
             }
         }
