@@ -22,7 +22,7 @@ export default function CartIcon() {
             </Text>
         </View>
         <Text className="flex-1 text-center font-extrabold text-white text-lg">
-            View Cart
+            My Cart Items
         </Text>
         <Text className="font-extrabold  text-white text-lg">
             GH¢{cartTotal}

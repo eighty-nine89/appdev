@@ -15,7 +15,7 @@ export default function CartScreen() {
     const cartItems = useSelector(selectCartItems);
     const cartTotal = useSelector(selectCartTotal);
     const [groupedItems, setGroupedItems] = useState({})
-    const deliveryFee = 2;
+    const deliveryFee = 5;
     const dispatch = useDispatch();
     useEffect(()=> {
         const items = cartItems.reduce((group, item)=>{
@@ -41,7 +41,7 @@ export default function CartScreen() {
                 <Icon.ArrowLeft strokeWidth={3} stroke="white" />
             </TouchableOpacity>
             <View>
-                <Text className="text-center font-bold text-xl">Your Cart</Text>
+                <Text className="text-center font-bold text-xl">My Cart Items</Text>
                 <Text className="text-center text-gray-500">{restaurant.name}</Text>
             </View>
         </View>
@@ -50,12 +50,7 @@ export default function CartScreen() {
         <View style={{backgroundColor: themeColors.bgColor(0.2)}}
         className="flex-row px-4 items-center">
             <Image source={require('../assets/images/bikeGuy.png')} className="w-20 h-20 rounded-full" />
-            <Text className="flex-1 pl-4">Delivery in 20-30 minutes</Text>
-            <TouchableOpacity>
-                <Text className="font-bold" style={{color: themeColors.text}}>
-                    Change
-                </Text>
-            </TouchableOpacity>
+            <Text className="flex-1 pl-4"> Estimated Delivery in 20-30 minutes</Text>
         </View>
         {/* dishes */}
         <ScrollView
@@ -92,15 +87,15 @@ export default function CartScreen() {
         {/* totals */}
         <View style={{backgroundColor: themeColors.bgColor(0.2)}} className="p-6 px-8 rounded-t-3xl space-y-4">
             <View className="flex-row justify-between">
-                <Text className="text-gray-700">Subtotal</Text>
+                <Text className="text-gray-700">Subtotal:</Text>
                 <Text className="text-gray-700">GH¢{cartTotal}</Text>
             </View>
             <View className="flex-row justify-between">
-                <Text className="text-gray-700">Delivery Fee</Text>
+                <Text className="text-gray-700">Delivery Fee:</Text>
                 <Text className="text-gray-700">GH¢{deliveryFee}</Text>
             </View>
             <View className="flex-row justify-between">
-                <Text className="text-gray-700 font-extrabold">Order Total</Text>
+                <Text className="text-gray-700 font-extrabold">Order Total:</Text>
                 <Text className="text-gray-700 font-extrabold">GH¢{deliveryFee+cartTotal}</Text>
             </View>
             <View>
@@ -110,7 +105,7 @@ export default function CartScreen() {
                 className="p-3 rounded-full"
                 >
                     <Text className="text-white text-center font-bold text-lg">
-                        Place Order
+                        Place Online Order
                     </Text>
                 </TouchableOpacity>
             </View>

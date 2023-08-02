@@ -15,7 +15,7 @@ export default function Categories() {
     },[])
 
     return (
-    <View className="mt-4">
+    <View className="mt-1">
       <ScrollView
       horizontal
       showsHorizontalScrollIndicator={false}
