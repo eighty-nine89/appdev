@@ -1,12 +1,15 @@
 import { StyleSheet, Text,View, Image, TouchableOpacity } from "react-native";
-import React from "react";
+
 import { useDispatch } from "react-redux";
+import React, { useEffect } from 'react';
 
 export default function Welcome({ navigation }) {
-  const dispatch = useDispatch();
-  const Admin = () => {
-    navigation.push("Home");
-  };
+  useEffect(()=>{
+    setTimeout(()=>{
+        //move to homescreen
+        navigation.navigate("Home");
+    }, 4000)
+},[])
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
@@ -17,13 +20,13 @@ export default function Welcome({ navigation }) {
       </View>
       <View style={styles.bottomContainer}>
         <View style={styles.bottomTop}>
-          <Text style={styles.bottomText} onLongPress={() => Admin()}>
+          <Text style={styles.bottomText} >
             BLACKSTAR CUISINE
           </Text>
         </View>
       </View>
       <View className="mb-10">
-        <Text>Long press BLACKSTAR CUISINE to go home</Text>
+        <Text>©2023 All rights reserved, BlackStar Cuisine.</Text>
       </View>
     </View>
   );

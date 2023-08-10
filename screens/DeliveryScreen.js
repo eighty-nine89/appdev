@@ -8,6 +8,8 @@ import * as Icon from "react-native-feather";
 import { useDispatch, useSelector } from 'react-redux';
 import { selectRestaurant } from '../slices/restaurantSlice';
 import { emptyCart } from '../slices/cartSlice';
+import {Linking} from 'react-native';
+
 
 export default function DeliveryScreen() {
     const restaurant = useSelector(selectRestaurant)
@@ -72,7 +74,7 @@ export default function DeliveryScreen() {
                 </Text>
               </View>
               <View className="flex-row items-center space-x-3 mr">
-                <TouchableOpacity className="bg-white p-2 rounded-full">
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:0507233153');}} className="bg-white p-2 rounded-full">
                   <Icon.Phone fill={themeColors.bgColor(1)} stroke={themeColors.bgColor(1)} strokeWidth={1} />
                 </TouchableOpacity>
                 <TouchableOpacity onPress={cancelOrder} className="bg-white p-2 rounded-full">

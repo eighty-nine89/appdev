@@ -28,12 +28,12 @@ export default function Categories() {
           categories.map((category, index)=>{
             let isActive = category._id==activeCategory;
             let btnClass = isActive? ' bg-white-600' : 'bg-white-200';
-            let textClass = isActive? ' font-semibold text-gray-800': ' text-gray-500'
+            let textClass = isActive? ' font-semibold text-white-800': ' text-white-500'
             return (
               <View key={index} className="flex justify-center items-center mr-6">
                 <TouchableOpacity
                 onPress={()=> setActiveCategory(category._id)}
-                className={"p-1 rounded-full shadow bg-gray-200"+btnClass}>
+                className={"p-1 rounded-full shadow bg-white-200"+btnClass}>
                   <Image style={{width: 45, height: 45}}
                   source={{uri: urlFor(category.image).url()}} />
                   

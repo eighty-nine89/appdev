@@ -49,7 +49,7 @@ export default function CartScreen() {
         {/* delivery time */}
         <View style={{backgroundColor: themeColors.bgColor(0.2)}}
         className="flex-row px-4 items-center">
-            <Image source={require('../assets/images/bikeGuy.png')} className="w-20 h-20 rounded-full" />
+            <Image source={require('../assets/images/bikeGuy.webp')} className="w-20 h-20 rounded-full" />
             <Text className="flex-1 pl-4"> Estimated Delivery in 20-30 minutes</Text>
         </View>
         {/* dishes */}
