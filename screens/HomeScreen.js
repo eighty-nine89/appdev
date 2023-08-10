@@ -23,12 +23,14 @@ export default function HomeScreen() {
     <SafeAreaView className="bg-white">
       <StatusBar barStyle="dark-content" />
       <View className="mx-4  mb-3 flex-row items-center space-x-2 justify-between">
-        <Image source={require('../assets/logo.png')} className="h-9 w-9 rounded-full" />
+        <Image source={require('../assets/logo.png')} className="h-10 w-10 rounded-full " />
         <View className="flex-row items-center space-x-2">
-          <Icon.MapPin height="20" width="20" stroke="gray" />
-          <Text className="text-gray-600 font-extrabold text-base">LABONE, ACCRA</Text>
+          <Icon.MapPin height="15" width="15" stroke="black" />
+          <Text className="text-black-600 font-light text-base">LABONE, ACCRA</Text>
         </View>
-        <Icon.User height="25" width="25" stroke="gray" />
+        <View style={{backgroundColor: themeColors.bgColor(1)}} className="p-3 rounded-full">
+          <Icon.Sliders height={10} width={10} strokeWidth="2.5" stroke="white" />
+        </View>
       </View>
       {/* search bar */}
       <View className="flex-row items-center space-x-2 px-4 pb-2">
