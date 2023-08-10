@@ -25,8 +25,8 @@ export default function OnBoarding({ navigation }) {
               style={{ width: 220, height: 245 }}
             />
           ),
-          title: "Create an account with Blackstar Restaurant",
-          subtitle: "New here, start by signing up",
+          title: "Hi, Welcome Cherished Customer :)",
+          subtitle: "New here, welcome to BlackStar Cuisine",
         },
         {
           backgroundColor: "#fff",
@@ -36,8 +36,8 @@ export default function OnBoarding({ navigation }) {
               style={{ width: 220, height: 245 }}
             />
           ),
-          title: "Order your dish from us",
-          subtitle: "Not sure about our Online Order?",
+          title: "Sumptuous Native and Continental Menu",
+          subtitle: "Not sure about what we serve?",
         },
         {
           backgroundColor: "#fff",
@@ -47,8 +47,8 @@ export default function OnBoarding({ navigation }) {
               style={{ width: 305, height: 245 }}
             />
           ),
-          title: "Pay after delivery",
-          subtitle: "Pay after your dish has been delivered",
+          title: "Fast Delivery Services",
+          subtitle: "Use our online order at your convenient homes",
         },
         {
           backgroundColor: "#fff",
@@ -58,8 +58,8 @@ export default function OnBoarding({ navigation }) {
               style={{ width: 320, height: 230 }}
             />
           ),
-          title: "Contact us at kobbyfrimpz89@gmail.com",
-          subtitle: "Share your feedback with Blackstar Restaurant",
+          title: "Pay after delivery",
+          subtitle: "Safe, secure and trustful payment method",
         },
       ]}
     />

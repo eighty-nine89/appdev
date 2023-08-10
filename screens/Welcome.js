@@ -19,6 +19,7 @@ export default function Welcome({ navigation }) {
         <View style={styles.bottomTop}>
           <Text style={styles.bottomText} onLongPress={() => Admin()}>
             Welcome
+            BlackStar Cuisine
           </Text>
           <Text style={styles.bottomLine}></Text>
         </View>
