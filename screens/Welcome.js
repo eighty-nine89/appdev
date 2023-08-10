@@ -11,20 +11,19 @@ export default function Welcome({ navigation }) {
     <View style={styles.container}>
       <View style={styles.logoContainer}>
         <Image
-          source={require("../assets/avatar.png")}
-          style={{ height: 250, width: 400 }}
+          source={require("../assets/welcome.png")}
+          style={{ height: 150, width: 300 }}
         />
       </View>
       <View style={styles.bottomContainer}>
         <View style={styles.bottomTop}>
           <Text style={styles.bottomText} onLongPress={() => Admin()}>
-            Welcome
-            BlackStar Cuisine
+            BLACKSTAR CUISINE
           </Text>
-          <Text style={styles.bottomLine}></Text>
         </View>
-        <View style={styles.buttons}>
-        </View>
+      </View>
+      <View className="mb-10">
+        <Text>Long press BLACKSTAR CUISINE to go home</Text>
       </View>
     </View>
   );
@@ -37,13 +36,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   logoContainer: {
-    flex: 1,
     justifyContent: "center",
     alignItems: "center",
-  },
-  logoText: {
-    fontSize: 14,
-    fontWeight: "500",
+    marginTop: 250,
+    padding: 20
   },
   bottomContainer: {
     flex: 1,
@@ -64,46 +60,6 @@ const styles = StyleSheet.create({
     width: 80,
     height: 3,
     marginTop: 3,
-    marginBottom: 20,
-  },
-  verseContainer: {
-    marginTop: 20,
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: 20,
-  },
-  giver: {
-    fontSize: 20,
-  },
-  buttons: {
-    marginTop: 30,
-    flexDirection: "row",
-    justifyContent: "space-around",
-    marginHorizontal: 10,
-  },
-  signup: {
-    flex: 1,
-    height: 60,
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 33.33,
-    marginRight: 10,
-  },
-  login: {
-    flex: 1,
-    borderWidth: 2,
-    borderRadius: 33.33,
-    height: 60,
-    justifyContent: "center",
-    alignItems: "center",
-    marginLeft: 10,
-  },
-  buttonTextUp: {
-    fontSize: 20,
-    fontWeight: "bold",
-  },
-  buttonTextIn: {
-    fontSize: 20,
-    fontWeight: "bold",
+    marginBottom: 30,
   },
 });

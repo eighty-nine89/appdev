@@ -17,34 +17,34 @@ export default function OnBoarding({ navigation }) {
       onDone={() => navigation.push('Welcome')}
       onSkip={() => navigation.push('Welcome')}
       pages={[
-        {
+        { 
           backgroundColor: "#fff",
           image: (
             <Image
-              source={require("../assets/avatar.png")}
-              style={{ width: 220, height: 245 }}
+              source={require("../assets/thankyou.png")}
+              style={{ width: 307, height: 210 }}
             />
           ),
-          title: "Hi, Welcome Cherished Customer :)",
-          subtitle: "New here, welcome to BlackStar Cuisine",
+          title: "Welcome Cherished Customer :)",
+          subtitle: "Thank you for choosing BlackStar Cuisine!",
         },
         {
           backgroundColor: "#fff",
           image: (
             <Image
-              source={require("../assets/avatar.png")}
-              style={{ width: 220, height: 245 }}
+              source={require("../assets/menu.png")}
+              style={{ width: 300, height: 200 }}
             />
           ),
-          title: "Sumptuous Native and Continental Menu",
+          title: "Sumptuous Native and Continental Dishes",
           subtitle: "Not sure about what we serve?",
         },
         {
           backgroundColor: "#fff",
           image: (
             <Image
-              source={require("../assets/avatar.png")}
-              style={{ width: 305, height: 245 }}
+              source={require("../assets/deliveryy.png")}
+              style={{ width: 300, height: 200 }}
             />
           ),
           title: "Fast Delivery Services",
@@ -54,11 +54,11 @@ export default function OnBoarding({ navigation }) {
           backgroundColor: "#fff",
           image: (
             <Image
-              source={require("../assets/avatar.png")}
-              style={{ width: 320, height: 230 }}
+              source={require("../assets/payment.png")}
+              style={{ width: 300, height: 200 }}
             />
           ),
-          title: "Pay after delivery",
+          title: "Pay After Delivery",
           subtitle: "Safe, secure and trustful payment method",
         },
       ]}
@@ -66,4 +66,17 @@ export default function OnBoarding({ navigation }) {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  pages: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  image: {
+    alignItems: "center",
+    padding: 0,
+    marginBottom: 0,
+    marginTop: 0,
+  },
+
+});

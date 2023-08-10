@@ -27,7 +27,7 @@ export default function Categories() {
        {
           categories.map((category, index)=>{
             let isActive = category._id==activeCategory;
-            let btnClass = isActive? ' bg-gray-600' : 'bg-gray-200';
+            let btnClass = isActive? ' bg-white-600' : 'bg-white-200';
             let textClass = isActive? ' font-semibold text-gray-800': ' text-gray-500'
             return (
               <View key={index} className="flex justify-center items-center mr-6">
