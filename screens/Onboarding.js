@@ -61,6 +61,17 @@ export default function OnBoarding({ navigation }) {
           title: "Pay After Delivery",
           subtitle: "Safe, secure and trustful payment method",
         },
+        {
+          backgroundColor: "#fff",
+          image: (
+            <Image
+              source={require("../assets/images/emailus.png")}
+              style={{ width: 300, height: 200 }}
+            />
+          ),
+          title: "Contact Us",
+          subtitle: "Send us your feedbacks, complains & suggestions via email",
+        }
       ]}
     />
   );

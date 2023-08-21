@@ -6,9 +6,9 @@ import React, { useEffect } from 'react';
 export default function Welcome({ navigation }) {
   useEffect(()=>{
     setTimeout(()=>{
-        //move to homescreen
-        navigation.navigate("Home");
-    }, 4000)
+        //move to login and register screen
+        navigation.navigate("Welcoming");
+    }, 2000)
 },[])
   return (
     <View style={styles.container}>
@@ -58,11 +58,5 @@ const styles = StyleSheet.create({
   bottomText: {
     fontSize: 36,
     fontWeight: "bold",
-  },
-  bottomLine: {
-    width: 80,
-    height: 3,
-    marginTop: 3,
-    marginBottom: 30,
   },
 });

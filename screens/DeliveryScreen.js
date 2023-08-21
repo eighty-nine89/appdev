@@ -54,6 +54,9 @@ export default function DeliveryScreen() {
               <Text className="mt-2 text-gray-700 font-semibold">
                 Your placed order is on it's way
               </Text>
+              <Text className="mt-2 text-gray-700 font-bold">
+                Scan to make payment 
+              </Text>
             </View>
             <Image className="w-24 h-24" source={require('../assets/images/bikeGuy2.gif')} />
           
@@ -67,7 +70,7 @@ export default function DeliveryScreen() {
               </View>
               <View className="flex-1 ml-3">
                 <Text className="text-lg font-bold text-white">
-                  Samuel Awuetey
+                  Theophilus Blankson
                 </Text>
                 <Text className="font-semibold text-white">
                   Delivery Personnel

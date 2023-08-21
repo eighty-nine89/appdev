@@ -12,9 +12,9 @@ const pallete = [
         text: '#7c3aed', 
         bgColor: opacity=> `rgba(167, 139, 250, ${opacity})`,
     },
-    {   // green
-        text: '#009950', 
-        bgColor: opacity=> `rgba(0, 179, 89, ${opacity})`,
+    {   // red
+        text: '#FF0000', 
+        bgColor: opacity=> `rgba(210, 0, 0, ${opacity})`,
     },
     {
         // teal
@@ -30,5 +30,5 @@ const pallete = [
 ]
 
 export const themeColors={
-   ...pallete[0]
+   ...pallete[3]
 }
