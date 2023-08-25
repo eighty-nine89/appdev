@@ -18,6 +18,8 @@ npx expo start
 
 
 
+
+
 -How to make your phone a simulator after downloading EXPO
 -You need to be in the directory of your poject folder.
 
