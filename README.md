@@ -13,15 +13,15 @@ cd appdev-sanity && npm install
 - navigate to the appdev-sanity folder path (cd appdev-sanity) and installs the dependencies and packages needed to run porject(npm install)
 
 npx expo start
--Download the EXPO App on your phone(Create an account) as a simulator and run The project using the statement in line 13.
--Open the project in the Expo app on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+- Download the EXPO App on your phone(Create an account) as a simulator and run The project using the statement in line 13.
+- Open the project in the Expo app on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
 
 
 
 
 
--How to make your phone a simulator after downloading EXPO
--You need to be in the directory of your poject folder.
+- How to make your phone a simulator after downloading EXPO
+- You need to be in the directory of your poject folder.
 
 npm install -g eas-cli
 
@@ -31,7 +31,7 @@ eas whoami
 
 eas build:configure
 
--eas.json will be built in your porject, open it with an IDE (Visual Studio Code) and insert the code in the "cli" line.
+- eas.json will be built in your porject, open it with an IDE (Visual Studio Code) and insert the code in the "cli" line.
 
 "simulator" : {
   "ios" : {
@@ -41,9 +41,9 @@ eas build:configure
 
 eas build --platform ios --profile simulator
 
--After the build is complete, download the file and extract the file and drag it onto your ios simulator on desktop screen to open it or,
--open EXPO on ios phone, " run npx expo start " on terminal and scan the QR code with ios phone camera on the terminal to open app.
+- After the build is complete, download the file and extract the file and drag it onto your ios simulator on desktop screen to open it or,
+- open EXPO on ios phone, " run npx expo start " on terminal and scan the QR code with ios phone camera on the terminal to open app.
 
--Watch the Youtube Video below on how to make your ios devce a simulator to run react native app
+- Watch the Youtube Video below on how to make your ios devce a simulator to run react native app
 
 https://youtu.be/k1M2WqdpgVg?si=YDbVdL4lH45F4J-i
