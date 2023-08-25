@@ -7,10 +7,10 @@ install dev dependencies (You need a strong internet connectivity for the projec
 
 cd appdev && npm install
 - You will need to use the sanity api keys used to develop the project in the other repository.
-- The line 6 statement; navigates you to the appdev folder path (cd appdev) and installs the dependencies and packages needed to run porject(npm install)
+-  navigate to the appdev folder path (cd appdev) and installs the dependencies and packages needed to run porject(npm install)
 
 cd appdev-sanity && npm install
-- The line 10 statement; navigates you to the appdev-sanity folder path (cd appdev-sanity) and installs the dependencies and packages needed to run porject(npm install)
+- navigate to the appdev-sanity folder path (cd appdev-sanity) and installs the dependencies and packages needed to run porject(npm install)
 
 npx expo start
 -Download the EXPO App on your phone(Create an account) as a simulator and run The project using the statement in line 13.
