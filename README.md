@@ -1,6 +1,5 @@
-# appdev: MINI-PROJECT for 2022/2023 Academic year
 - To start the project:
-- note: The " node_modules " of this project was not pushed to this repository due to large size and time, hence the steps below helps install all all need dependencies for this project to run.
+- note: The " node_modules " of this project was not pushed to this repository, hence the steps below helps install all all need dependencies for this project to run.
 
 - Create a folder on your desktop and download appdev code and appdev-sanity code in the other repository from Github into the folder.
 install dev dependencies (You need a strong internet connectivity for the project.) 
