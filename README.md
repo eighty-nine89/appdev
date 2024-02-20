@@ -44,6 +44,3 @@ eas build --platform ios --profile simulator
 - After the build is complete, download the file and extract the file and drag it onto your ios simulator on desktop screen to open it or,
 - open EXPO on ios phone, " run npx expo start " on terminal and scan the QR code with ios phone camera on the terminal to open app.
 
-- Watch the Youtube Video below on how to make your ios devce a simulator to run react native app
-
-https://youtu.be/k1M2WqdpgVg?si=YDbVdL4lH45F4J-i
